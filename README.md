@@ -1,17 +1,6 @@
-################################################################################################
 
- .d8888b.  888b    888  .d8888b.       888     888 8888888b.   .d8888b.        d8888 8888888b.  
-d88P  Y88b 8888b   888 d88P  Y88b      888     888 888   Y88b d88P  Y88b      d88888 888   Y88b
-888    888 88888b  888 888    888      888     888 888    888 888    888     d88P888 888    888
-888        888Y88b 888 888             888     888 888   d88P 888           d88P 888 888   d88P
-888        888 Y88b888 888             888     888 8888888P"  888          d88P  888 8888888P"  
-888    888 888  Y88888 888    888      888     888 888 T88b   888    888  d88P   888 888        
-Y88b  d88P 888   Y8888 Y88b  d88P      Y88b. .d88P 888  T88b  Y88b  d88P d8888888888 888        
- "Y8888P"  888    Y888  "Y8888P"        "Y88888P"  888   T88b  "Y8888P" d88P     888 888        
+#About
 
-################################################################################################
-#									About
-################################################################################################
 This README is meant to be a source of documentation on the "CNC URCap",
 based on the DMH-UR-LIB: master.script.
 
@@ -34,9 +23,9 @@ Haris Jasarevic. Engineer.
 Thanks to Seal Engineering, Daniel C. Lindquist Nilsen and Haris Jasarevic for the opportunity
 and for providing us with helpful information, technical expertise and resources.
 
-################################################################################################
-#									The URCaps Starter Package (short)
-################################################################################################
+
+#The URCaps Starter Package (short)
+
 The Starter package is a development environment provided by Universal Robots.
 complete with Eclipse Java IDE, URCaps Software Development Kit (SDK) and URSim.
 
@@ -46,9 +35,9 @@ Extensive documentation with examples from specific use-cases of various aspects
 
 [Universal Robots+](https://www.universal-robots.com/plus/developer/)
 
-################################################################################################
-#									The URCap
-################################################################################################
+
+#The URCap
+
 The CNC URCap is composed of:
 
 ##installation
@@ -76,9 +65,7 @@ The 1.0.1 and 1.0.2's CNCInstallationNode classes are identical, but the
 CNCProgramNode java classes differ and are much simpler for in 1.0.2.
 
 
-################################################################################################
 #									The Java Program (Preface)
-################################################################################################
 
 ##Disclaimer
 The Jave project use (Version 1.11.0) of the API, with all dependencies already set up
@@ -148,9 +135,8 @@ In the case of Program contribution, the respective position in the program tree
 
 (The URCap API is very much designed on the principle of "Model View Control")
 
-################################################################################################
 #									The Java Program (CNC URCap)
-################################################################################################
+
 With the preface in mind, the CNC URCap has communication between the Installation contribution
 and the Program contributions as the program nodes only execute when the CNC functionality is
 enabled in the Installation.
